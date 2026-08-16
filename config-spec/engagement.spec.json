@@ -1,0 +1,32 @@
+{
+  "config": "engagement",
+  "platform": "web",
+  "files": {
+    "test": "TEST ENV/engagement-test.json",
+    "stage": "STAGE/engagement-stage.json",
+    "prod": "PROD/engagement-prod.json"
+  },
+  "keys": {
+    "continueWatching.exitThreshold":        { "expected": 97,      "format": "percentage" },
+    "continueWatching.pollingTimeInterval":  { "expected": "PT300S","format": "duration_seconds" },
+    "continueWatching.startThreshold":       { "expected": 1,       "format": "percentage" },
+
+    "inactivity_prompt.enable":              { "expected": true,    "format": "boolean" },
+    "inactivity_prompt.promptThreshold":     { "expected": "PT300S","format": "duration_seconds" },
+    "inactivity_prompt.seriesPromptDelay":   { "expected": "PT3S",  "format": "duration_seconds" },
+    "inactivity_prompt.vodPromptDelay":      { "expected": "PT180S","format": "duration_seconds" },
+
+    "refresh.landingPageInactive":           { "expected": 300, "format": "duration_seconds" },
+    "refresh.linearChannelDetailEPG":        { "expected": 180, "format": "duration_seconds" },
+    "refresh.liveCardEPG":                   { "expected": 0,   "format": "duration_seconds" },
+    "refresh.liveProgramReminder":           { "expected": 0,   "format": "duration_seconds" },
+    "refresh.miniEPG":                       { "expected": 300, "format": "duration_seconds" },
+    "refresh.tvGuideInactive":               { "expected": 0,   "format": "duration_seconds" },
+    "refresh.tvGuideProgress":               { "expected": 60,  "format": "duration_seconds" },
+
+    "aaConfigUrl":              { "expected": " ", "format": "string" },
+    "railCartSize":             { "expected": 0, "format": "number" },
+    "registerInterest.period":  { "expected": 7, "format": "number" },
+    "registerInterest.Url":     { "expected": "https://promotions-stg.pink.cat/details/ag-guest-mode?app=1&open=true&redirect_uri=", "format": "url" }
+  }
+}

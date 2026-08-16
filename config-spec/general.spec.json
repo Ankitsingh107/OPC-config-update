@@ -1,0 +1,110 @@
+{
+  "config": "general",
+  "platform": "web",
+  "apiKey": "configuration",
+  "files": {
+    "test": "TEST ENV/general-platform-config-test-env.json",
+    "stage": "STAGE/general-platform-config-stage1-env.json",
+    "prod": "PROD/general-platform-config-prod-env.json"
+  },
+  "keys": {
+    "platformId": { "expected": "5f438e99c814696803f004d9" },
+    "cdnAuthKey": { "expected": "6f554b58a3bd" },
+    "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
+
+    "adjust": {
+      "expected": {
+        "boxset": "225ddsjj",
+        "channel": "22s9bg8e",
+        "enableAdjust": true,
+        "movie": "1w6c71n1",
+        "show": "22jy47b0"
+      }
+    },
+
+
+    "config.currency_mapping": { "expected": { "Malaysian Ringgit": "RM" } },
+    "config.defaultWaitingRoomConfig": {
+      "expected": {
+        "message": "dict.waitingRoom.highTraffic.desc",
+        "title": "dict.waitingRoom.highTraffic.title",
+        "waitingbuttonMessage": "dict.waitingRoom.highTraffic.desc2",
+        "waitingMessage": "dict.waitingRoom.highTraffic.desc2",
+        "waitingTime": 10
+      }
+    },
+    "config.enableCatalogueFiltering": { "expected": true, "format": "boolean" },
+    "config.externalLinkLanguageMap": { "expected": { "may": "bm" } },
+    "config.hlsThumbnailIdentifier": { "expected": "linear" },
+    "config.parentalControlMap": {
+      "expected": {
+        "13": "Block Rating: 13, 16, 18 & 21",
+        "16": "Block Rating: 16, 18 & 21",
+        "18": "Block Rating: 18 & 21",
+        "21": "Block Rating: 21",
+        "p12": "Block Rating: P12, 13, 16, 18 & 21",
+        "u": "Off"
+      }
+    },
+    "config.rental": { "expected": { "goverment_tax": "6%", "service_tax": "6%" } },
+
+    "enableCDVRFeature": { "expected": true, "format": "boolean" },
+    "enableChannelSorting": { "expected": true, "format": "boolean" },
+    "enableSocialSharing": { "expected": true, "format": "boolean" },
+    "isConvivaAppTrackerEnabled": { "expected": true, "format": "boolean" },
+    "isDrmLicenseTokenRequired": { "expected": true, "format": "boolean" },
+    "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
+    "isSSAIAdClickthroughEnabled": { "expected": true, "format": "boolean" },
+    "parentalPinGracePeriod": { "expected": 120, "format": "number" },
+
+    "insights.apiEndpoint": {
+      "expectedPerEnv": {
+        "test":  "https://a20iu6vxgce9c8-ats.iot.us-east-1.amazonaws.com/topics/$aws/rules/insightstest/device?x-amz-customauthorizer-name=Insightstest",
+        "stage": "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insightsstage/device?x-amz-customauthorizer-name=Insightsstage",
+        "prod":  "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insights/device?x-amz-customauthorizer-name=Insights"
+      },
+      "format": "url"
+    },
+
+    "operatorConfigData.previewRatingRestrictions": { "expected": ["18", "21"], "format": "array" },
+
+    "pollSSAIAdInterval": { "expected": 5, "format": "duration_seconds" },
+
+    "sentryConfig": {
+      "expected": {
+        "adsPlaybackErrorLoggingSentry": true,
+        "apiErrorLoggingSentry": true,
+        "enableSentry": true,
+        "playbackErrorLoggingSentry": true,
+        "playerSentryBreadcrumbsEnabled": true
+      }
+    },
+
+
+    "public.migrationCookieUrl": {
+      "expectedPerEnv": {
+        "test":  "https://tm.dev.xp.irdeto.com/v1/device/migration/cookie-v2",
+        "stage": "https://tm.ctrp-stag.stgbpkastro.com/oauth2",
+        "prod":  "https://tm.ctrp.astro.com.my/oauth2"
+      },
+      "format": "url"
+    },
+    "public.enableLoginMigration": { "expected": true, "format": "boolean" },
+    "public.guest": {
+      "expected": {
+        "enableChannelSorting": true,
+        "experienceId": "MAIN",
+        "profileType": "ADULT",
+        "ottBouquetId": "OTTGU",
+        "enableCatalogueFiltering": true,
+        "catalogIds": [ "ottlive", "weblive", "crmlive", "ottkidslive", "webkidslive", "crmkidslive" ],
+        "entitlements": []
+      }
+    },
+
+    "convivaSuffix":   { "onlyIn": "test", "expected": "X" },
+    "playerDebugView": { "onlyIn": "test", "expected": { "cpIds": ["99659688"], "enableDebugView": true } },
+
+    "resolutionConfig.maxResolution": { "onlyIn": [] }
+  }
+}

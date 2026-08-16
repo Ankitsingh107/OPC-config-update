@@ -1,0 +1,47 @@
+{
+  "config": "learnActions",
+  "platform": "web",
+  "files": {
+    "test": "TEST ENV/learnactions-test.json",
+    "stage": "STAGE/learnActions-stage1.json",
+    "prod": "PROD/learnActions-prod.json"
+  },
+  "keys": {
+    "learnActionsConfigurations.epg.dormantPeriod":           { "expected": "PT240S",   "format": "duration_seconds" },
+    "learnActionsConfigurations.epg.endWatchingPercentage":   { "expected": 70,       "format": "percentage" },
+    "learnActionsConfigurations.epg.startWatchingPercentage": { "expected": 5,        "format": "percentage" },
+    "learnActionsConfigurations.epg.startWatchingPeriod":     { "expected": "PT240S", "format": "duration_seconds" },
+    "learnActionsConfigurations.retryCount":                  { "expected": 0,        "format": "number" },
+    "learnActionsConfigurations.vod.endWatchingPercentage":   { "expected": 70,       "format": "percentage" },
+    "learnActionsConfigurations.vod.startWatchingPercentage": { "expected": 5,        "format": "percentage" },
+    "learnActionsConfigurations.vod.startWatchingPeriod":     { "expected": "PT240S", "format": "duration_seconds" },
+
+    "referenceUseCases.channelZapping": { "expected": "uiredirect/channelZapping", "format": "string" },
+    "referenceUseCases.deeplink":       { "expected": "3ppmovie",                  "format": "string" },
+    "referenceUseCases.default":        { "expected": "uiredirect/default",        "format": "string" },
+    "referenceUseCases.nonTaRail":      { "expected": "",                          "format": "string" },
+    "referenceUseCases.notification":   { "expected": "",                          "format": "string" },
+    "referenceUseCases.onboard":        { "expected": "",                          "format": "string" },
+    "referenceUseCases.railPrefix":     { "expected": "uiredirect/",               "format": "string" },
+
+    "useCaseConfigurations.endCredit.page":      { "expected": "player",      "format": "string" },
+    "useCaseConfigurations.endCredit.useCaseID": { "expected": "post_credit", "format": "string" },
+
+    "useCaseConfigurations.rr.epg.enabled": { "expected": true,               "format": "boolean" },
+    "useCaseConfigurations.rr.epg.page":    { "expected": "details",          "format": "string" },
+    "useCaseConfigurations.rr.epg.uc":      { "expected": "more_like_this_epg","format": "string" },
+    "useCaseConfigurations.rr.vod.enabled": { "expected": true,               "format": "boolean" },
+    "useCaseConfigurations.rr.vod.page":    { "expected": "details",          "format": "string" },
+    "useCaseConfigurations.rr.vod.uc":      { "expected": "more_like_this_vod","format": "string" },
+
+    "useCaseConfigurations.search.autoComplete.page":                { "expected": "", "format": "string" },
+    "useCaseConfigurations.search.autoComplete.suggestionStartChar": { "expected": 0,  "format": "number" },
+    "useCaseConfigurations.search.autoComplete.uc":                  { "expected": "", "format": "string" },
+
+    "useCaseConfigurations.search.globalSearch.fuzzyEnabled":    { "expected": false,          "format": "boolean" },
+    "useCaseConfigurations.search.globalSearch.page":            { "expected": "",             "format": "string" },
+    "useCaseConfigurations.search.globalSearch.refUsecase":      { "expected": "search/search","format": "string" },
+    "useCaseConfigurations.search.globalSearch.searchStartChar": { "expected": 0,              "format": "number" },
+    "useCaseConfigurations.search.globalSearch.uc":              { "expected": "",             "format": "string" }
+  }
+}

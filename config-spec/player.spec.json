@@ -1,0 +1,59 @@
+{
+  "config": "player",
+  "platform": "web",
+  "files": {
+    "test": "TEST ENV/player-test.json",
+    "stage": "STAGE/player-stage.json",
+    "prod": "PROD/player-prod.json"
+  },
+  "keys": {
+    "autoPreview.previewImageShowTime": { "expected": 3, "format": "duration_seconds" },
+    "autoPreview.enabled":              { "expected": true, "format": "boolean" },
+
+    "channelZappingConfig.keypadInputTimeout": { "expected": 500, "format": "duration_milliseconds" },
+    "channelZappingConfig.maxInputDigits":     { "expected": 3,    "format": "integer" },
+
+    "drmCertificateInfo.certificateUrl": {
+      "expectedPerEnv": {
+        "test":  "https://irdetoexperience.test.ott.irdeto.com/licenseServer/streaming/v1/irdetoexperience/getcertificate?applicationId=irdetoexperience",
+        "stage": "https://license.ctrp.astro.com.my/licenseServer/streaming/v1/astro/getcertificate?applicationId=live",
+        "prod":  "https://license.ctrp.astro.com.my/licenseServer/streaming/v1/astro/getcertificate?applicationId=live"
+      },
+      "format": "url"
+    },
+    "drmCertificateInfo.fairPlayLicenseUrl": {
+      "expectedPerEnv": {
+        "test":  "https://irdetoexperience.test.ott.irdeto.com/licenseServer/streaming/v1/irdetoexperience/getckc?contentId=dev_hdm_fps&keyId=bce31f17-2228-5db6-80d4-e631cc62c22b",
+        "stage": "https://license.ctrp.astro.com.my/licenseServer/streaming/v1/astro/getckc",
+        "prod":  "https://license.ctrp.astro.com.my/licenseServer/streaming/v1/astro/getckc"
+      },
+      "format": "url"
+    },
+
+    "lowNetworkConfig.averageNumberOfChunks":       { "expected": 5,    "format": "integer" },
+    "lowNetworkConfig.enableSlowNetworkFeature":    { "expected": true, "format": "boolean" },
+    "lowNetworkConfig.networkBandwidthThreshold":   { "expected": 600,  "format": "integer" },
+    "lowNetworkConfig.networkThresholdTimeout":     { "expected": 30,   "format": "duration_seconds" },
+    "lowNetworkConfig.safariNetworkIntervalThreshold": { "expected": 5, "format": "integer" },
+    "lowNetworkConfig.slowNetworkToastThreshold":   { "expected": 10,   "format": "duration_seconds" },
+
+    "player.bufferTime.hd.cdvr":    { "expected": "30", "format": "duration_seconds" },
+    "player.bufferTime.hd.live":    { "expected": "18",  "format": "duration_seconds" },
+    "player.bufferTime.hd.restart": { "expected": "18",    "format": "duration_seconds" },
+    "player.bufferTime.hd.vod":     { "expected": "30", "format": "duration_seconds" },
+    "player.bufferTime.uhd.live":   { "expected": "",    "format": "duration_seconds" },
+    "player.bufferTime.uhd.vod":    { "expected": "",    "format": "duration_seconds" },
+    "player.initialBitrate.value":  { "expected": "", "format": "integer" },
+    "player.restartTvGuardTime.value": { "expected": "", "format": "duration_seconds" },
+    "player.videoPreview.previewDelay": { "expected": "", "format": "duration_seconds" },
+
+    "thumbnailInterval": { "expected": "", "format": "duration_seconds" },
+
+    "videoSnippetRule.linearEvent": { "expected": [] },
+    "videoSnippetRule.vodAndCdvr": { "expected": [
+      { "condition": { "genre": [ "Sports", "News" ], "contentDuration": { "operator": ">", "value": "0:00" } }, "preview": { "begin": "0:00",  "duration": "1:00" } },
+      { "condition": { "contentDuration": { "operator": "<", "value": "30:00" } }, "preview": { "begin": "20%",   "duration": "1:00" } },
+      { "condition": { "contentDuration": { "operator": ">", "value": "30:00" } }, "preview": { "begin": "10:00", "duration": "1:00" } }
+    ] }
+  }
+}

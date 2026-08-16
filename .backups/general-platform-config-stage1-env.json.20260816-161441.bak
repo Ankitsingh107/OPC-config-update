@@ -1,0 +1,70 @@
+{
+  "adjust": {
+    "boxset": "225ddsjj",
+    "channel": "22s9bg8e",
+    "enableAdjust": true,
+    "movie": "1w6c71n1",
+    "show": "22jy47b0"
+  },
+  "cdnAuthKey": "6f554b58a3bd",
+  "config": {
+    "currency_mapping": {
+      "Malaysian Ringgit": "RM"
+    },
+    "defaultWaitingRoomConfig": {
+      "message": "dict.waitingRoom.highTraffic.desc",
+      "title": "dict.waitingRoom.highTraffic.title",
+      "waitingbuttonMessage": "dict.waitingRoom.highTraffic.desc2",
+      "waitingMessage": "dict.waitingRoom.highTraffic.desc2",
+      "waitingTime": 10
+    },
+    "enableCatalogueFiltering": true,
+    "externalLinkLanguageMap": {
+      "may": "bm"
+    },
+    "hlsThumbnailIdentifier": "linear",
+    "parentalControlMap": {
+      "13": "Block Rating: 13, 16, 18 & 21",
+      "16": "Block Rating: 16, 18 & 21",
+      "18": "Block Rating: 18 & 21",
+      "21": "Block Rating: 21",
+      "p12": "Block Rating: P12, 13, 16, 18 & 21",
+      "u": "Off"
+    },
+    "rental": {
+      "goverment_tax": "6%",
+      "service_tax": "6%"
+    }
+  },
+  "enableCDVRFeature": true,
+  "enableChannelSorting": true,
+  "enableSocialSharing": true,
+  "insights": {
+    "apiEndpoint": "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insightsstage/device?x-amz-customauthorizer-name=Insightsstage"
+  },
+  "isConvivaAppTrackerEnabled": true,
+  "isDrmLicenseTokenRequired": true,
+  "isWaterMarkTokenRequired": true,
+  "operatorConfigData": {
+    "previewRatingRestrictions": [
+      "18",
+      "21"
+    ]
+  },
+  "parentalPinGracePeriod": "120",
+  "platformId": "5f438e99c814696803f004d9",
+  "pollSSAIAdInterval": 5,
+  "public": {
+    "enableLoginMigration": true,
+    "migrationCookieUrl": "https://tm.ctrp-stag.stgbpkastro.com/oauth2"
+  },
+  "sentryConfig": {
+    "adsPlaybackErrorLoggingSentry": true,
+    "apiErrorLoggingSentry": true,
+    "enableSentry": true,
+    "playbackErrorLoggingSentry": true,
+    "playerSentryBreadcrumbsEnabled": true
+  },
+  "seekingThreshold": 500,
+  "isSSAIAdClickthroughEnabled": true
+}
