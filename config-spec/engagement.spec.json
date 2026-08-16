@@ -18,7 +18,7 @@
 
     "refresh.landingPageInactive":           { "expected": 300, "format": "duration_seconds" },
     "refresh.linearChannelDetailEPG":        { "expected": 180, "format": "duration_seconds" },
-    "refresh.liveCardEPG":                   { "expected": 0,   "format": "duration_seconds" },
+    "refresh.liveCardEPG":                   { "expected": 180, "format": "duration_seconds" },
     "refresh.liveProgramReminder":           { "expected": 0,   "format": "duration_seconds" },
     "refresh.miniEPG":                       { "expected": 300, "format": "duration_seconds" },
     "refresh.tvGuideInactive":               { "expected": 0,   "format": "duration_seconds" },
