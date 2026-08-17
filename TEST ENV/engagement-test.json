@@ -15,7 +15,7 @@
   "refresh": {
     "landingPageInactive": 300,
     "linearChannelDetailEPG": 180,
-    "liveCardEPG": 180,
+    "liveCardEPG": 300,
     "liveProgramReminder": 0,
     "miniEPG": 300,
     "tvGuideInactive": 0,
