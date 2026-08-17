@@ -82,5 +82,6 @@
     "playerSentryBreadcrumbsEnabled": true
   },
   "seekingThreshold": 500,
-  "isSSAIAdClickthroughEnabled": true
+  "isSSAIAdClickthroughEnabled": true,
+  "entitlementsExpiry": 86400
 }

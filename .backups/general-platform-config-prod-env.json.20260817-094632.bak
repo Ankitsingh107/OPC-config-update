@@ -82,6 +82,5 @@
     }
   },
   "seekingThreshold": 500,
-  "isSSAIAdClickthroughEnabled": true,
-  "entitlementsExpiry": 86400
+  "isSSAIAdClickthroughEnabled": true
 }

@@ -89,5 +89,6 @@
   "enableSocialSharing": true,
   "parentalPinGracePeriod": "120",
   "seekingThreshold": 500,
-  "isSSAIAdClickthroughEnabled": true
+  "isSSAIAdClickthroughEnabled": true,
+  "entitlementsExpiry": 86400
 }

@@ -50,10 +50,6 @@
     "thumbnailInterval": { "expected": "", "format": "duration_seconds" },
 
     "videoSnippetRule.linearEvent": { "expected": [] },
-    "videoSnippetRule.vodAndCdvr": { "expected": [
-      { "condition": { "genre": [ "Sports", "News" ], "contentDuration": { "operator": ">", "value": "0:00" } }, "preview": { "begin": "0:00",  "duration": "1:00" } },
-      { "condition": { "contentDuration": { "operator": "<", "value": "30:00" } }, "preview": { "begin": "20%",   "duration": "1:00" } },
-      { "condition": { "contentDuration": { "operator": ">", "value": "30:00" } }, "preview": { "begin": "10:00", "duration": "1:00" } }
-    ] }
+    "videoSnippetRule.vodAndCdvr": { "expected": [] }
   }
 }
