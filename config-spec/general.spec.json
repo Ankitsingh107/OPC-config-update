@@ -12,6 +12,7 @@
     "cdnAuthKey": { "expected": "6f554b58a3bd" },
     "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
+    "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
 
     "adjust": {
       "expected": {

@@ -83,5 +83,8 @@
   },
   "seekingThreshold": 500,
   "isSSAIAdClickthroughEnabled": true,
-  "entitlementsExpiry": 86400
+  "entitlementsExpiry": 86400,
+  "partiallyDisconnectOfferIds": [
+    86
+  ]
 }
