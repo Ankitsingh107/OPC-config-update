@@ -91,7 +91,7 @@
       },
       "format": "url"
     },
-    "public.enableLoginMigration": { "expected": true, "format": "boolean" },
+    "public.enableLoginMigration": { "expected": false, "format": "boolean" },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,

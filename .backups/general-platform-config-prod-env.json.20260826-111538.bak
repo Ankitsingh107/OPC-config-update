@@ -63,7 +63,7 @@
   "parentalPinGracePeriod": "120",
   "public": {
     "migrationCookieUrl": "https://tm.ctrp.astro.com.my/oauth2",
-    "enableLoginMigration": false,
+    "enableLoginMigration": true,
     "guest": {
       "enableChannelSorting": true,
       "experienceId": "MAIN",

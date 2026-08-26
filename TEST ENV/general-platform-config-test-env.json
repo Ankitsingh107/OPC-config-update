@@ -8,7 +8,7 @@
   },
   "public": {
     "migrationCookieUrl": "https://tm.dev.xp.irdeto.com/v1/device/migration/cookie-v2",
-    "enableLoginMigration": true,
+    "enableLoginMigration": false,
     "guest": {
       "enableChannelSorting": true,
       "experienceId": "MAIN",

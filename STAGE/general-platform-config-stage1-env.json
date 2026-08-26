@@ -55,7 +55,7 @@
   "platformId": "5f438e99c814696803f004d9",
   "pollSSAIAdInterval": 5,
   "public": {
-    "enableLoginMigration": true,
+    "enableLoginMigration": false,
     "migrationCookieUrl": "https://tm.ctrp-stag.stgbpkastro.com/oauth2",
     "guest": {
       "enableChannelSorting": true,

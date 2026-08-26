@@ -38,8 +38,9 @@
   },
   "enableCDVRFeature": true,
   "enableChannelSorting": true,
+  "enableSocialSharing": true,
   "insights": {
-    "apiEndpoint": "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insights/device?x-amz-customauthorizer-name=Insights"
+    "apiEndpoint": "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insightsstage/device?x-amz-customauthorizer-name=Insightsstage"
   },
   "isConvivaAppTrackerEnabled": true,
   "isDrmLicenseTokenRequired": true,
@@ -50,20 +51,12 @@
       "21"
     ]
   },
+  "parentalPinGracePeriod": "120",
   "platformId": "5f438e99c814696803f004d9",
   "pollSSAIAdInterval": 5,
-  "sentryConfig": {
-    "adsPlaybackErrorLoggingSentry": true,
-    "apiErrorLoggingSentry": true,
-    "enableSentry": true,
-    "playbackErrorLoggingSentry": true,
-    "playerSentryBreadcrumbsEnabled": true
-  },
-  "enableSocialSharing": true,
-  "parentalPinGracePeriod": "120",
   "public": {
-    "migrationCookieUrl": "https://tm.ctrp.astro.com.my/oauth2",
-    "enableLoginMigration": false,
+    "enableLoginMigration": true,
+    "migrationCookieUrl": "https://tm.ctrp-stag.stgbpkastro.com/oauth2",
     "guest": {
       "enableChannelSorting": true,
       "experienceId": "MAIN",
@@ -80,6 +73,13 @@
       ],
       "entitlements": []
     }
+  },
+  "sentryConfig": {
+    "adsPlaybackErrorLoggingSentry": true,
+    "apiErrorLoggingSentry": true,
+    "enableSentry": true,
+    "playbackErrorLoggingSentry": true,
+    "playerSentryBreadcrumbsEnabled": true
   },
   "seekingThreshold": 500,
   "isSSAIAdClickthroughEnabled": true,
