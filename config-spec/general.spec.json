@@ -28,10 +28,6 @@
     "config.currency_mapping": { "expected": { "Malaysian Ringgit": "RM" } },
     "config.defaultWaitingRoomConfig": {
       "expected": {
-        "message": "dict.waitingRoom.highTraffic.desc",
-        "title": "dict.waitingRoom.highTraffic.title",
-        "waitingbuttonMessage": "dict.waitingRoom.highTraffic.desc2",
-        "waitingMessage": "dict.waitingRoom.highTraffic.desc2",
         "waitingTime": 10
       }
     },

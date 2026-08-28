@@ -6,32 +6,16 @@
     "movie": "1w6c71n1",
     "show": "22jy47b0"
   },
-  "public": {
-    "migrationCookieUrl": "https://tm.dev.xp.irdeto.com/v1/device/migration/cookie-v2",
-    "enableLoginMigration": false,
-    "guest": {
-      "enableChannelSorting": true,
-      "experienceId": "MAIN",
-      "profileType": "ADULT",
-      "ottBouquetId": "OTTGU",
-      "enableCatalogueFiltering": true,
-      "catalogIds": [
-        "ottlive",
-        "weblive",
-        "crmlive",
-        "ottkidslive",
-        "webkidslive",
-        "crmkidslive"
-      ],
-      "entitlements": []
-    }
-  },
   "cdnAuthKey": "6f554b58a3bd",
   "config": {
     "currency_mapping": {
       "Malaysian Ringgit": "RM"
     },
     "defaultWaitingRoomConfig": {
+      "message": "dict.waitingRoom.highTraffic.desc",
+      "title": "dict.waitingRoom.highTraffic.title",
+      "waitingbuttonMessage": "dict.waitingRoom.highTraffic.desc2",
+      "waitingMessage": "dict.waitingRoom.highTraffic.desc2",
       "waitingTime": 10
     },
     "enableCatalogueFiltering": true,
@@ -52,11 +36,11 @@
       "service_tax": "6%"
     }
   },
-  "convivaSuffix": "X",
   "enableCDVRFeature": true,
   "enableChannelSorting": true,
+  "enableSocialSharing": true,
   "insights": {
-    "apiEndpoint": "https://a20iu6vxgce9c8-ats.iot.us-east-1.amazonaws.com/topics/$aws/rules/insightstest/device?x-amz-customauthorizer-name=Insightstest"
+    "apiEndpoint": "https://a113fudozaqppo-ats.iot.eu-west-1.amazonaws.com/topics/$aws/rules/insightsstage/device?x-amz-customauthorizer-name=Insightsstage"
   },
   "isConvivaAppTrackerEnabled": true,
   "isDrmLicenseTokenRequired": true,
@@ -67,14 +51,29 @@
       "21"
     ]
   },
+  "parentalPinGracePeriod": "120",
   "platformId": "5f438e99c814696803f004d9",
-  "playerDebugView": {
-    "cpIds": [
-      "99659688"
-    ],
-    "enableDebugView": true
-  },
   "pollSSAIAdInterval": 5,
+  "public": {
+    "enableLoginMigration": false,
+    "migrationCookieUrl": "https://tm.ctrp-stag.stgbpkastro.com/oauth2",
+    "guest": {
+      "enableChannelSorting": true,
+      "experienceId": "MAIN",
+      "profileType": "ADULT",
+      "ottBouquetId": "OTTGU",
+      "enableCatalogueFiltering": true,
+      "catalogIds": [
+        "ottlive",
+        "weblive",
+        "crmlive",
+        "ottkidslive",
+        "webkidslive",
+        "crmkidslive"
+      ],
+      "entitlements": []
+    }
+  },
   "sentryConfig": {
     "adsPlaybackErrorLoggingSentry": true,
     "apiErrorLoggingSentry": true,
@@ -82,8 +81,6 @@
     "playbackErrorLoggingSentry": true,
     "playerSentryBreadcrumbsEnabled": true
   },
-  "enableSocialSharing": true,
-  "parentalPinGracePeriod": "120",
   "seekingThreshold": 500,
   "isSSAIAdClickthroughEnabled": true,
   "entitlementsExpiry": 86400,

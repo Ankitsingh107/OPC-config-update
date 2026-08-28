@@ -12,10 +12,6 @@
       "Malaysian Ringgit": "RM"
     },
     "defaultWaitingRoomConfig": {
-      "message": "dict.waitingRoom.highTraffic.desc",
-      "title": "dict.waitingRoom.highTraffic.title",
-      "waitingbuttonMessage": "dict.waitingRoom.highTraffic.desc2",
-      "waitingMessage": "dict.waitingRoom.highTraffic.desc2",
       "waitingTime": 10
     },
     "enableCatalogueFiltering": true,
