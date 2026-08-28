@@ -42,7 +42,7 @@
         "uc": ""
       },
       "globalSearch": {
-        "fuzzyEnabled": false,
+        "fuzzyEnabled": true,
         "page": "",
         "refUsecase": "search/search",
         "searchStartChar": 0,

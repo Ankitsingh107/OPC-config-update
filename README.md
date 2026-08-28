@@ -254,7 +254,7 @@ environment, so the tool needs to know which env the response came from.
 |---|---|---|
 | `check [configs…]` | Verify env files match their spec. Exits non-zero if anything's off. | No |
 | `preview [configs…]` | Show what `apply` would change. | No |
-| `apply [configs…]` | Bring env files into line with the spec (backup first). | **Yes** |
+| `apply [configs…]` | Bring env files into line with the spec (undo via git). | **Yes** |
 | `audit [configs…] --env E` | Compare the API response in `api-responses/` against the specs (strict). | No |
 
 Common to all:
@@ -270,9 +270,10 @@ Common to all:
 
 - **`preview` before `apply`** — always see the diff first; `apply` never runs on
   its own.
-- **Backups** — every `apply` saves a timestamped copy of each file under
-  `.backups/` (e.g. `.backups/engagement-prod.json.20260605-100000.bak`) *before*
-  writing. To undo, copy the backup back over the original.
+- **Git is the undo** — the config files are tracked in git, so every `apply` is
+  visible in `git diff` and reversible with `git checkout -- <file>` (or `git
+  restore`). Review the diff, commit when happy. (The tool used to write
+  `.backups/` copies; that's been removed now that git history covers it.)
 - **`check` is your gate** — run it before any release (it exits non-zero on
   failure, so it works in CI):
   ```bash

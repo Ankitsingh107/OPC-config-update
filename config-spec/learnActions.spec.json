@@ -38,7 +38,7 @@
     "useCaseConfigurations.search.autoComplete.suggestionStartChar": { "expected": 0,  "format": "number" },
     "useCaseConfigurations.search.autoComplete.uc":                  { "expected": "", "format": "string" },
 
-    "useCaseConfigurations.search.globalSearch.fuzzyEnabled":    { "expected": false,          "format": "boolean" },
+    "useCaseConfigurations.search.globalSearch.fuzzyEnabled":    { "expected": true,           "format": "boolean" },
     "useCaseConfigurations.search.globalSearch.page":            { "expected": "",             "format": "string" },
     "useCaseConfigurations.search.globalSearch.refUsecase":      { "expected": "search/search","format": "string" },
     "useCaseConfigurations.search.globalSearch.searchStartChar": { "expected": 0,              "format": "number" },

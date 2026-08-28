@@ -9,7 +9,7 @@ and reports deviations, and can optionally fix them.
 Usage:
     python3 validate.py check                    # verify files match the spec (the test)
     python3 validate.py preview                  # show what would change (writes NOTHING)
-    python3 validate.py apply                    # make the changes (timestamped backup first)
+    python3 validate.py apply                    # make the changes (undo via git if needed)
 
     # each command takes an optional spec path and/or a single environment:
     python3 validate.py check   config-spec/player.spec.json
@@ -25,8 +25,6 @@ import json
 import sys
 import os
 import glob
-import shutil
-from datetime import datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -288,12 +286,6 @@ def run_fix(spec, only_env, write):
             envs_changed += 1
             if write:
                 path = os.path.join(ROOT, file_rel)
-                backup_dir = os.path.join(ROOT, ".backups")
-                os.makedirs(backup_dir, exist_ok=True)
-                backup = os.path.join(
-                    backup_dir,
-                    f"{os.path.basename(file_rel)}.{datetime.now():%Y%m%d-%H%M%S}.bak")
-                shutil.copy2(path, backup)
                 for key, _old, new in changes:
                     if new is DELETE:
                         del_path(data, key)
@@ -302,7 +294,7 @@ def run_fix(spec, only_env, write):
                 with open(path, "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
                     f.write("\n")
-                print(f"  -> wrote {len(changes)} change(s); backup at {os.path.relpath(backup, ROOT)}")
+                print(f"  -> wrote {len(changes)} change(s)  (undo with git if needed)")
     print()
     if total_changes == 0:
         print(f"==================== NOTHING TO {verb} — everything already matches the spec "

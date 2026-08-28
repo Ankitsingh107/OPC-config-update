@@ -4,3 +4,6 @@
 # Python
 __pycache__/
 *.py[cod]
+
+# Tool no longer writes backups — git history is the safety net
+.backups/
