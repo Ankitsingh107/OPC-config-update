@@ -23,6 +23,6 @@
   },
   "registerInterest": {
     "period": 7,
-    "Url": "https://promotions.astro.com.my/details/ag-guest-mode?app=1&open=true&redirect_uri="
+    "Url": "https://promotions-stg.pink.cat/details/ag-guest-mode?app=1&open=true&redirect_uri="
   }
 }
