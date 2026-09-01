@@ -33,7 +33,7 @@
     },
     "config.enableCatalogueFiltering": { "expected": true, "format": "boolean" },
     "config.externalLinkLanguageMap": { "expected": { "may": "bm" } },
-    "config.hlsThumbnailIdentifier": { "expected": "linear" },
+    "config.hlsThumbnailIdentifier": { "expected": "ag" },
     "config.parentalControlMap": {
       "expected": {
         "13": "Block Rating: 13, 16, 18 & 21",
