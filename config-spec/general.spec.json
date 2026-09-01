@@ -52,7 +52,7 @@
     "isConvivaAppTrackerEnabled": { "expected": true, "format": "boolean" },
     "isDrmLicenseTokenRequired": { "expected": true, "format": "boolean" },
     "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
-    "isSSAIAdClickthroughEnabled": { "expected": true, "format": "boolean" },
+    "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
 
     "insights.apiEndpoint": {
