@@ -13,6 +13,38 @@
     "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
     "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
+    "labelColors": {
+      "expected": {
+        "COMING_SOON": "#E6007D",
+        "COMING_SOON_FONT": "#EBEBEB",
+        "EXPIRING_SOON": "#EBEBEBE5",
+        "EXPIRING_SOON_FONT": "#010414",
+        "LAST_CHANCE": "#EBEBEBE5",
+        "LAST_CHANCE_FONT": "#010414",
+        "FREE_TO_WATCH": "#EBEBEBE5",
+        "FREE_TO_WATCH_FONT": "#010414",
+        "SUBSCRIBE": "#EBEBEBE5",
+        "SUBSCRIBE_FONT": "#010414",
+        "LIVE": "#FF0059",
+        "LIVE_FONT": "#EBEBEB",
+        "ON_AIR": "#FFFFFF1A",
+        "ON_AIR_FONT": "#FFFFFFB2",
+        "NEW": "#E6007D",
+        "NEW_FONT": "#EBEBEB",
+        "NEW_EPISODE": "#E6007D",
+        "NEW_EPISODE_FONT": "#EBEBEB",
+        "NEW_SEASON": "#E6007D",
+        "NEW_SEASON_FONT": "#EBEBEB",
+        "NEW_SERIES": "#E6007D",
+        "NEW_SERIES_FONT": "#EBEBEB",
+        "RENT": "#3679F6",
+        "RENT_FONT": "#EBEBEB",
+        "4K": "#E6007D",
+        "4K_FONT": "#EBEBEB",
+        "EXPIRED": "#EBEBEBE5",
+        "EXPIRED_FONT": "#010414"
+      }
+    },
 
     "adjust": {
       "expected": {
