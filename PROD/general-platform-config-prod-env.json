@@ -112,5 +112,6 @@
     "4K_FONT": "#EBEBEB",
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
-  }
+  },
+  "pilotRedirectUrl": "https://astrogo.astro.com.my/"
 }
