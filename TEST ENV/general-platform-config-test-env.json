@@ -24,7 +24,8 @@
         "crmkidslive"
       ],
       "entitlements": []
-    }
+    },
+    "isMoengageEnabled": true
   },
   "cdnAuthKey": "6f554b58a3bd",
   "config": {
@@ -120,5 +121,6 @@
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
   },
-  "pilotRedirectUrl": "https://astrogo.astro.com.my/"
+  "pilotRedirectUrl": "https://astrogo.astro.com.my/",
+  "isMoengageEnabled": true
 }

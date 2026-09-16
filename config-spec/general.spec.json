@@ -86,6 +86,7 @@
     "isDrmLicenseTokenRequired": { "expected": true, "format": "boolean" },
     "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
     "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
+    "isMoengageEnabled": { "onlyIn": [] },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
 
     "insights.apiEndpoint": {
@@ -121,6 +122,7 @@
       "format": "url"
     },
     "public.enableLoginMigration": { "expected": false, "format": "boolean" },
+    "public.isMoengageEnabled": { "onlyIn": [] },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,
