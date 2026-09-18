@@ -75,8 +75,7 @@
         "crmkidslive"
       ],
       "entitlements": []
-    },
-    "isMoengageEnabled": true
+    }
   },
   "seekingThreshold": 500,
   "isSSAIAdClickthroughEnabled": false,
@@ -114,6 +113,5 @@
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
   },
-  "pilotRedirectUrl": "https://astrogo.astro.com.my/",
-  "isMoengageEnabled": true
+  "pilotRedirectUrl": "https://astrogo.astro.com.my/"
 }

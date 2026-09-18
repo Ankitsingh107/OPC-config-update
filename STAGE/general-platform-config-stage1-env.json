@@ -68,8 +68,7 @@
         "crmkidslive"
       ],
       "entitlements": []
-    },
-    "isMoengageEnabled": true
+    }
   },
   "sentryConfig": {
     "adsPlaybackErrorLoggingSentry": true,
@@ -114,6 +113,5 @@
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
   },
-  "pilotRedirectUrl": "https://astrogo.astro.com.my/",
-  "isMoengageEnabled": true
+  "pilotRedirectUrl": "https://astrogo.astro.com.my/"
 }
