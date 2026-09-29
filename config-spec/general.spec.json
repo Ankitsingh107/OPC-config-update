@@ -13,7 +13,6 @@
     "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
     "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
-    "pilotRedirectUrl": { "expected": "https://astrogo.astro.com.my/", "format": "url" },
     "labelColors": {
       "expected": {
         "COMING_SOON": "#E6007D",
@@ -121,6 +120,7 @@
       "format": "url"
     },
     "public.enableLoginMigration": { "expected": false, "format": "boolean" },
+    "public.pilotRedirectUrl": { "expected": "https://astrogo.astro.com.my/", "format": "url" },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,
