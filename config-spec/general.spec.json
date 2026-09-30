@@ -13,6 +13,7 @@
     "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
     "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
+    "adStartupBitrate": { "expected": 1700000, "format": "integer" },
     "labelColors": {
       "expected": {
         "COMING_SOON": "#E6007D",
@@ -68,12 +69,12 @@
     "config.hlsThumbnailIdentifier": { "expected": "ag" },
     "config.parentalControlMap": {
       "expected": {
-        "13": "Block Rating: 13, 16, 18 & 21",
-        "16": "Block Rating: 16, 18 & 21",
-        "18": "Block Rating: 18 & 21",
-        "21": "Block Rating: 21",
-        "p12": "Block Rating: P12, 13, 16, 18 & 21",
-        "u": "Off"
+        "13": "Block Rating: 16, 18 & 21",
+        "16": "Block Rating: 18 & 21",
+        "18": "Block Rating: 21",
+        "21": "Off",
+        "p12": "Block Rating: 13, 16, 18 & 21",
+        "u": "Block Rating: P12, 13, 16, 18 & 21"
       }
     },
     "config.rental": { "expected": { "goverment_tax": "6%", "service_tax": "6%" } },

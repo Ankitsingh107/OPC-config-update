@@ -45,6 +45,47 @@
   "thumbnailInterval": "",
   "videoSnippetRule": {
     "linearEvent": [],
-    "vodAndCdvr": []
+    "vodAndCdvr": [
+      {
+        "condition": {
+          "genre": [
+            "Sports",
+            "News"
+          ],
+          "contentDuration": {
+            "operator": ">",
+            "value": "0:00"
+          }
+        },
+        "preview": {
+          "begin": "0:00",
+          "duration": "1:00"
+        }
+      },
+      {
+        "condition": {
+          "contentDuration": {
+            "operator": "<",
+            "value": "30:00"
+          }
+        },
+        "preview": {
+          "begin": "20%",
+          "duration": "1:00"
+        }
+      },
+      {
+        "condition": {
+          "contentDuration": {
+            "operator": ">",
+            "value": "30:00"
+          }
+        },
+        "preview": {
+          "begin": "10:00",
+          "duration": "1:00"
+        }
+      }
+    ]
   }
 }

@@ -41,12 +41,12 @@
     },
     "hlsThumbnailIdentifier": "ag",
     "parentalControlMap": {
-      "13": "Block Rating: 13, 16, 18 & 21",
-      "16": "Block Rating: 16, 18 & 21",
-      "18": "Block Rating: 18 & 21",
-      "21": "Block Rating: 21",
-      "p12": "Block Rating: P12, 13, 16, 18 & 21",
-      "u": "Off"
+      "13": "Block Rating: 16, 18 & 21",
+      "16": "Block Rating: 18 & 21",
+      "18": "Block Rating: 21",
+      "21": "Off",
+      "p12": "Block Rating: 13, 16, 18 & 21",
+      "u": "Block Rating: P12, 13, 16, 18 & 21"
     },
     "rental": {
       "goverment_tax": "6%",
@@ -120,5 +120,6 @@
     "4K_FONT": "#EBEBEB",
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
-  }
+  },
+  "adStartupBitrate": 1700000
 }
