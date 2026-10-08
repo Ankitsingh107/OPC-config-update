@@ -14,6 +14,23 @@
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
     "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
     "adStartupBitrate": { "expected": 1700000, "format": "integer" },
+    "paginationLimits": {
+      "expected": {
+        "seeAllPageLimit": 20,
+        "bulkRailByIDPageLimit": 10,
+        "miniMyBoxPageLimit": 20,
+        "episodePageLimit": 10,
+        "recordingPageLimit": 25,
+        "searchRecordingPageLimit": 25,
+        "recordingsQueryPageLimit": 200,
+        "recordingsTVGuidePageLimit": 200,
+        "railHierarchyPageLimit": 20,
+        "moreLikeThisPageLimit": 20,
+        "endCreditPageLimit": 20,
+        "searchPageLimit": 20,
+        "suggesterPageLimit": 10
+      }
+    },
     "labelColors": {
       "expected": {
         "COMING_SOON": "#E6007D",
@@ -122,6 +139,7 @@
     },
     "public.enableLoginMigration": { "expected": false, "format": "boolean" },
     "public.pilotRedirectUrl": { "expected": "https://astrogo.astro.com.my/", "format": "url" },
+    "public.railHierarchyPageLimit": { "expected": 20, "format": "integer" },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,

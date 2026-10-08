@@ -69,7 +69,8 @@
       ],
       "entitlements": []
     },
-    "pilotRedirectUrl": "https://astrogo.astro.com.my/"
+    "pilotRedirectUrl": "https://astrogo.astro.com.my/",
+    "railHierarchyPageLimit": 20
   },
   "sentryConfig": {
     "adsPlaybackErrorLoggingSentry": true,
@@ -114,5 +115,20 @@
     "EXPIRED": "#EBEBEBE5",
     "EXPIRED_FONT": "#010414"
   },
-  "adStartupBitrate": 1700000
+  "adStartupBitrate": 1700000,
+  "paginationLimits": {
+    "seeAllPageLimit": 20,
+    "bulkRailByIDPageLimit": 10,
+    "miniMyBoxPageLimit": 20,
+    "episodePageLimit": 10,
+    "recordingPageLimit": 25,
+    "searchRecordingPageLimit": 25,
+    "recordingsQueryPageLimit": 200,
+    "recordingsTVGuidePageLimit": 200,
+    "railHierarchyPageLimit": 20,
+    "moreLikeThisPageLimit": 20,
+    "endCreditPageLimit": 20,
+    "searchPageLimit": 20,
+    "suggesterPageLimit": 10
+  }
 }
