@@ -13,11 +13,11 @@
     "seekingThreshold": { "expected": 500, "format": "duration_milliseconds" },
     "entitlementsExpiry": { "expected": 86400, "format": "duration_seconds" },
     "partiallyDisconnectOfferIds": { "expected": [ 86 ], "format": "array" },
-    "adStartupBitrate": { "expected": 1700000, "format": "integer" },
+    "adStartupBitrate": { "expected": { "vod": 1700000, "linear": 1700000 }, "format": "object" },
     "paginationLimits": {
       "expected": {
         "seeAllPageLimit": 20,
-        "bulkRailByIDPageLimit": 10,
+        "bulkRailByIDPageLimit": 0,
         "miniMyBoxPageLimit": 20,
         "episodePageLimit": 10,
         "recordingPageLimit": 25,
@@ -60,7 +60,11 @@
         "4K": "#E6007D",
         "4K_FONT": "#EBEBEB",
         "EXPIRED": "#EBEBEBE5",
-        "EXPIRED_FONT": "#010414"
+        "EXPIRED_FONT": "#010414",
+        "LIVE_DELAYED": "#FFFFFF1A",
+        "LIVE_DELAYED_FONT": "#FFFFFFB2",
+        "ON_AIR_DELAYED": "#FFFFFF1A",
+        "ON_AIR_DELAYED_FONT": "#FFFFFFB2"
       }
     },
 
@@ -140,6 +144,7 @@
     "public.enableLoginMigration": { "expected": false, "format": "boolean" },
     "public.pilotRedirectUrl": { "expected": "https://astrogo.astro.com.my/", "format": "url" },
     "public.railHierarchyPageLimit": { "expected": 20, "format": "integer" },
+    "public.lightspeedRedirectDelay": { "expected": 5, "format": "duration_seconds" },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,

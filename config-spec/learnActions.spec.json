@@ -17,7 +17,7 @@
     "learnActionsConfigurations.vod.startWatchingPeriod":     { "expected": "PT240S", "format": "duration_seconds" },
 
     "referenceUseCases.channelZapping": { "expected": "uiredirect/channelZapping", "format": "string" },
-    "referenceUseCases.deeplink":       { "expected": "3ppmovie",                  "format": "string" },
+    "referenceUseCases.deeplink":       { "expected": "",                          "format": "string" },
     "referenceUseCases.default":        { "expected": "uiredirect/default",        "format": "string" },
     "referenceUseCases.nonTaRail":      { "expected": "",                          "format": "string" },
     "referenceUseCases.notification":   { "expected": "",                          "format": "string" },

@@ -77,7 +77,8 @@
       "entitlements": []
     },
     "pilotRedirectUrl": "https://astrogo.astro.com.my/",
-    "railHierarchyPageLimit": 20
+    "railHierarchyPageLimit": 20,
+    "lightspeedRedirectDelay": 5
   },
   "seekingThreshold": 500,
   "isSSAIAdClickthroughEnabled": false,
@@ -113,12 +114,19 @@
     "4K": "#E6007D",
     "4K_FONT": "#EBEBEB",
     "EXPIRED": "#EBEBEBE5",
-    "EXPIRED_FONT": "#010414"
+    "EXPIRED_FONT": "#010414",
+    "LIVE_DELAYED": "#FFFFFF1A",
+    "LIVE_DELAYED_FONT": "#FFFFFFB2",
+    "ON_AIR_DELAYED": "#FFFFFF1A",
+    "ON_AIR_DELAYED_FONT": "#FFFFFFB2"
   },
-  "adStartupBitrate": 1700000,
+  "adStartupBitrate": {
+    "vod": 1700000,
+    "linear": 1700000
+  },
   "paginationLimits": {
     "seeAllPageLimit": 20,
-    "bulkRailByIDPageLimit": 10,
+    "bulkRailByIDPageLimit": 0,
     "miniMyBoxPageLimit": 20,
     "episodePageLimit": 10,
     "recordingPageLimit": 25,

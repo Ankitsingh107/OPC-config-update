@@ -15,7 +15,7 @@
   },
   "referenceUseCases": {
     "channelZapping": "uiredirect/channelZapping",
-    "deeplink": "3ppmovie",
+    "deeplink": "",
     "default": "uiredirect/default",
     "nonTaRail": "",
     "notification": "",
