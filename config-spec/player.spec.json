@@ -38,7 +38,7 @@
     "lowNetworkConfig.slowNetworkToastThreshold":   { "expected": 10,   "format": "duration_seconds" },
 
     "player.bufferTime.hd.cdvr":    { "expected": "30", "format": "duration_seconds" },
-    "player.bufferTime.hd.live":    { "expected": "18",  "format": "duration_seconds" },
+    "player.bufferTime.hd.live":    { "expected": "10",  "format": "duration_seconds" },
     "player.bufferTime.hd.restart": { "expected": "18",    "format": "duration_seconds" },
     "player.bufferTime.hd.vod":     { "expected": "30", "format": "duration_seconds" },
     "player.bufferTime.uhd.live":   { "expected": "",    "format": "duration_seconds" },

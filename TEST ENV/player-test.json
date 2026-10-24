@@ -15,7 +15,7 @@
     "bufferTime": {
       "hd": {
         "cdvr": "30",
-        "live": "18",
+        "live": "10",
         "restart": "18",
         "vod": "30"
       },
