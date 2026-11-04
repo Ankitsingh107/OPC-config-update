@@ -47,7 +47,7 @@
     "player.restartTvGuardTime.value": { "expected": "", "format": "duration_seconds" },
     "player.videoPreview.previewDelay": { "expected": "", "format": "duration_seconds" },
 
-    "thumbnailInterval": { "expected": "", "format": "duration_seconds" },
+    "thumbnailInterval": { "expected": "10", "format": "duration_seconds" },
 
     "videoSnippetRule.linearEvent": { "expected": [] },
     "videoSnippetRule.vodAndCdvr": { "expected": [

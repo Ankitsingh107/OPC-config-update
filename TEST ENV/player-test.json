@@ -34,7 +34,7 @@
       "previewDelay": ""
     }
   },
-  "thumbnailInterval": "",
+  "thumbnailInterval": "10",
   "videoSnippetRule": {
     "linearEvent": [],
     "vodAndCdvr": [

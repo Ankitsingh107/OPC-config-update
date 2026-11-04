@@ -138,5 +138,6 @@
     "endCreditPageLimit": 20,
     "searchPageLimit": 20,
     "suggesterPageLimit": 10
-  }
+  },
+  "isDebugHeadersEnabled": true
 }

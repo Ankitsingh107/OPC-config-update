@@ -107,6 +107,7 @@
     "isDrmLicenseTokenRequired": { "expected": true, "format": "boolean" },
     "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
     "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
+    "isDebugHeadersEnabled": { "expected": true, "format": "boolean" },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
 
     "insights.apiEndpoint": {
