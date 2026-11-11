@@ -139,5 +139,6 @@
     "searchPageLimit": 20,
     "suggesterPageLimit": 10
   },
-  "isDebugHeadersEnabled": true
+  "isDebugHeadersEnabled": true,
+  "proactiveRefresh": 30
 }

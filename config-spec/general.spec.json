@@ -108,6 +108,7 @@
     "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
     "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
     "isDebugHeadersEnabled": { "expected": true, "format": "boolean" },
+    "proactiveRefresh": { "expected": 30, "format": "duration_seconds" },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
 
     "insights.apiEndpoint": {
