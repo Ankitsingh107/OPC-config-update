@@ -150,7 +150,7 @@
     "searchPageLimit": 20,
     "suggesterPageLimit": 10
   },
-  "isDebugHeadersEnabled": true,
+  "isDebugHeadersEnabled": false,
   "proactiveRefresh": 30,
   "railImageOptimisation": {
     "enabled": true,

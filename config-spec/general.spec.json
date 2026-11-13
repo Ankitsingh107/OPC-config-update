@@ -107,7 +107,7 @@
     "isDrmLicenseTokenRequired": { "expected": true, "format": "boolean" },
     "isWaterMarkTokenRequired": { "expected": true, "format": "boolean" },
     "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
-    "isDebugHeadersEnabled": { "expected": true, "format": "boolean" },
+    "isDebugHeadersEnabled": { "expected": false, "format": "boolean" },
     "proactiveRefresh": { "expected": 30, "format": "duration_seconds" },
     "railImageOptimisation": { "expected": { "enabled": true, "quality": "auto" } },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
