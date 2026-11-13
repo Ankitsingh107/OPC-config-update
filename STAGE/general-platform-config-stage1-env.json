@@ -71,7 +71,11 @@
     },
     "pilotRedirectUrl": "https://astrogo.astro.com.my/",
     "railHierarchyPageLimit": 20,
-    "lightspeedRedirectDelay": 5
+    "lightspeedRedirectDelay": 5,
+    "railImageOptimisation": {
+      "enabled": true,
+      "quality": "auto"
+    }
   },
   "sentryConfig": {
     "adsPlaybackErrorLoggingSentry": true,
@@ -140,5 +144,9 @@
     "suggesterPageLimit": 10
   },
   "isDebugHeadersEnabled": true,
-  "proactiveRefresh": 30
+  "proactiveRefresh": 30,
+  "railImageOptimisation": {
+    "enabled": true,
+    "quality": "auto"
+  }
 }

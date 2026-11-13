@@ -109,6 +109,7 @@
     "isSSAIAdClickthroughEnabled": { "expected": false, "format": "boolean" },
     "isDebugHeadersEnabled": { "expected": true, "format": "boolean" },
     "proactiveRefresh": { "expected": 30, "format": "duration_seconds" },
+    "railImageOptimisation": { "expected": { "enabled": true, "quality": "auto" } },
     "parentalPinGracePeriod": { "expected": 120, "format": "number" },
 
     "insights.apiEndpoint": {
@@ -147,6 +148,7 @@
     "public.pilotRedirectUrl": { "expected": "https://astrogo.astro.com.my/", "format": "url" },
     "public.railHierarchyPageLimit": { "expected": 20, "format": "integer" },
     "public.lightspeedRedirectDelay": { "expected": 5, "format": "duration_seconds" },
+    "public.railImageOptimisation": { "expected": { "enabled": true, "quality": "auto" } },
     "public.guest": {
       "expected": {
         "enableChannelSorting": true,

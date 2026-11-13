@@ -7,6 +7,10 @@
     "show": "22jy47b0"
   },
   "public": {
+    "railImageOptimisation": {
+      "enabled": true,
+      "quality": "auto"
+    },
     "railHierarchyPageLimit": 20,
     "migrationCookieUrl": "https://tm.dev.xp.irdeto.com/v1/device/migration/cookie-v2",
     "enableLoginMigration": false,
@@ -147,5 +151,9 @@
     "suggesterPageLimit": 10
   },
   "isDebugHeadersEnabled": true,
-  "proactiveRefresh": 30
+  "proactiveRefresh": 30,
+  "railImageOptimisation": {
+    "enabled": true,
+    "quality": "auto"
+  }
 }
